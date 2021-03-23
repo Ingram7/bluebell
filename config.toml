@@ -1,0 +1,19 @@
+
+start_time = "2021-03-01"
+machine_id = 1
+
+[mysql]
+dsn = ""
+
+[redis]
+addr = "127.0.0.1:6379"
+password = ""
+db = 0
+
+[log]
+level= "debug"
+filename = "web_app.log"
+max_size = 200
+max_age = 30
+max_backups = 7
+
